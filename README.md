@@ -5,6 +5,8 @@ Author: Jan Ondruch
 Date: 26.1.2017
 Project length: ~7days
 
+http://jan-movies.surge.sh
+
 Description:
 Main goal was to try building a website from scratch using NodeJS, ReactJS, Webpack and Materialize-css.
 The website itself represents a possible website promoting my movie-making skills (simplified version).
