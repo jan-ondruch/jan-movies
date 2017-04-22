@@ -7,6 +7,11 @@ Project length: ~7days
 
 Deployment:
 http://jan-movies.surge.sh
+Beware: just uploading the project on surge won't make it work, unless you pre-compile the index.js and 
+image file locally - they are already in the project and surge will simply read them. Therefore, when 
+changing something, re-compile the project using 'webpack ./src/main.js' -> the files will be outputted
+to a new folder with the same name as the project has, you take them from there and copy to the original
+project (nasty workaround, just a quick deployment solution).
 
 Description:
 Main goal was to try building a website from scratch using NodeJS, ReactJS, Webpack and Materialize-css.
